@@ -125,7 +125,7 @@ export const Step3 = ({ onSelectionChange }: ErasSelectorProps) => {
         </Text>
       </View>
       <View style={{ marginTop: "auto" }}>
-        <Pressable onPress={() => router.push("/step-3")} style={styles.button}>
+        <Pressable onPress={() => router.push("./deck")} style={styles.button}>
           <Text
             style={{
               color: "#fff",
